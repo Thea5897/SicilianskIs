@@ -14,3 +14,7 @@
   padding: 18px;
   text-decoration: none;
 }
+
+.menu a:hover {
+  opacity: 70%;
+}
