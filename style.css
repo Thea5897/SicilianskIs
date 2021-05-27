@@ -35,3 +35,7 @@ h2 {
 .menu a:hover {
   opacity: 60%;
 }
+
+.logo {
+  max-width: 200px;
+}
