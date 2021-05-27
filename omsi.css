@@ -1,0 +1,13 @@
+#firstsection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  background-image: url(billeder/isbaggrund.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#firstsection h1 {
+  grid-column: 2;
+}
