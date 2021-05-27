@@ -1,4 +1,11 @@
-#first_section {
+#first_section .col {
+  margin-left: 250px;
+  position: relative;
+  display: inline-block;
+}
+#first_section h1 {
+  position: absolute;
+  z-index: 1;
   padding-top: 70px;
   margin-left: 350px;
 }
