@@ -6,7 +6,24 @@ h2 {
   font-family: "Montserrat", sans-serif;
 }
 
-header {
-  background-color: orange;
-  position: sticky;
+.menu {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #ffa500;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.menu a {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  color: white;
+  padding: 18px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  opacity: 60%;
 }
