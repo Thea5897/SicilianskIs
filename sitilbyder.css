@@ -9,3 +9,28 @@
   padding-top: 70px;
   margin-left: 350px;
 }
+
+#second_section h2,
+p {
+  margin-left: 350px;
+}
+
+#second_section .col_2 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+#second_section .img_1 {
+  grid-area: 1 / 5 / 3 / 7;
+}
+
+#second_section .img_2 {
+  grid-area: 1 / 7 / 3 / 9;
+}
+
+#second_section .img_3 {
+  grid-area: 2 / 6 / 4 / 8;
+}
