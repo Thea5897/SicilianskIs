@@ -1,0 +1,21 @@
+#firstsection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  background-image: url(billeder/isbaggrund.png);
+  background-size: cover;
+  width: 100%;
+}
+
+#firstsection h1 {
+  grid-column: 2;
+}
+
+.col img {
+  width: 30vw;
+  height: 30.3vw;
+}
+
+#secondsection {
+  display: grid;
+}
