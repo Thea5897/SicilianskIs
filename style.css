@@ -13,7 +13,7 @@ h2 {
 .menu {
   margin: 0;
   padding: 0;
-  width: 250px;
+  width: 18vw;
   background-color: #ffa500;
   position: fixed;
   height: 100%;
@@ -26,6 +26,7 @@ h2 {
   color: white;
   padding: 18px;
   text-decoration: none;
+  text-align: center;
 }
 
 .menu a:hover {
@@ -33,5 +34,5 @@ h2 {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 12vw;
 }
