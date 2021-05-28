@@ -1,0 +1,17 @@
+h2 {
+  color: black;
+  font-size: 1vw;
+}
+
+#first_section,
+#third_section,
+#fourth_section {
+  margin-left: 20vw;
+}
+main {
+  display: grid;
+}
+
+#fifth_section {
+  display: inline-grid;
+}
