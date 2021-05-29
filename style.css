@@ -23,6 +23,7 @@ p {
   position: fixed;
   height: 100%;
   overflow: auto;
+  z-index: 2;
 }
 
 .menu a {
