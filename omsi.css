@@ -39,3 +39,12 @@ h2 {
   grid-template-columns: 1fr 1fr;
   margin-left: 350px;
 }
+
+#second_section .col {
+  border: solid black;
+  background-color: white;
+}
+
+#second_section p {
+  padding: 2em;
+}
