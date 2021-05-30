@@ -32,12 +32,15 @@ h2 {
 .billede1 {
   width: 30vw;
   height: 30.3vw;
+  grid-row-start: span 2;
 }
 
 #second_section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   margin-left: 350px;
+  /* align-content: center; */
 }
 
 #second_section .col {
@@ -47,4 +50,6 @@ h2 {
 
 #second_section p {
   padding: 2em;
+  line-height: 1.5em;
+  word-break: break-word;
 }
