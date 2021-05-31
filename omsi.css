@@ -9,7 +9,6 @@ html body {
 /* placering af splashbillede */
 #first_section .col {
   margin-left: 250px;
-
   grid-area: 1 / 1;
 }
 
