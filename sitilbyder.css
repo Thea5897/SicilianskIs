@@ -8,13 +8,6 @@
 #first_section h1 {
   position: absolute;
   z-index: 1;
-  padding-top: 4vw;
-  margin-left: 24vw;
-}
-
-#second_section h2,
-p {
-  margin-left: 24vw;
 }
 
 /* placering af billeder via grid */
@@ -41,7 +34,7 @@ p {
   grid-column: 6/8;
 }
 
-/* placering af .col_1 og .col_2 via grid */
+/* placering af second_section .col_1 og .col_2 via grid */
 #second_section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
