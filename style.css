@@ -24,6 +24,10 @@ p {
   color: black;
 }
 
+header {
+  background-color: #ffa500;
+}
+
 .menu {
   margin: 0;
   padding: 0;
