@@ -3,11 +3,6 @@ h2 {
   font-size: 1vw;
 }
 
-#first_section,
-#third_section,
-#fourth_section {
-  margin-left: 20vw;
-}
 main {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
