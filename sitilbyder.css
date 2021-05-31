@@ -1,6 +1,5 @@
 /* placering af splashbillede */
 #first_section .col {
-  margin-left: 250px;
   position: relative;
   display: inline-block;
 }
@@ -9,13 +8,13 @@
 #first_section h1 {
   position: absolute;
   z-index: 1;
-  padding-top: 70px;
-  margin-left: 350px;
+  padding-top: 4vw;
+  margin-left: 24vw;
 }
 
 #second_section h2,
 p {
-  margin-left: 350px;
+  margin-left: 24vw;
 }
 
 /* placering af billeder via grid */
@@ -23,8 +22,8 @@ p {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
 }
 
 #second_section .img_1 {
@@ -47,8 +46,8 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
 }
 
 #second_section .col_1 {
