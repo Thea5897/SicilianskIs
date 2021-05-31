@@ -3,18 +3,22 @@
   position: absolute;
   z-index: 1;
   margin-top: 2em;
-  margin-left: 1em;
-}
-
-/* tilpasning af p i second_section */
-#second_section .col_1 {
-  border: 0.1vw solid black;
-  background-color: white;
-  margin-top: -3.5em;
+  margin-left: 2.2em;
+  color: white;
 }
 
 /* placering af second_section .col_1 og .col_2 via grid */
 #second_section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+/* tilpasning af p i second_section */
+#second_section .col_1 {
+  border: 0.1vw solid black;
+  background-color: white;
+  width: 25em;
+  padding: 1em;
+  margin: 5em;
+  margin-top: -3.5em;
 }
