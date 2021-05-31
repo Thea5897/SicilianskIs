@@ -2,6 +2,11 @@ html body {
   margin: 0;
 }
 
+html {
+  display: grid;
+  grid-template-columns: 17.5vw 1fr;
+}
+
 * {
   margin: 0;
 }
@@ -26,17 +31,35 @@ p {
 
 header {
   background-color: #ffa500;
-}
-
-.menu {
+  grid-column: 1;
   margin: 0;
   padding: 0;
-  width: 18vw;
+  width: 17.5vw;
   background-color: #ffa500;
   position: fixed;
   height: 100%;
   overflow: auto;
   z-index: 2;
+}
+
+main {
+  grid-column: 2;
+}
+
+/* .menu {
+  margin: 0;
+  padding: 0;
+  width: 17.5vw;
+  background-color: #ffa500;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  z-index: 2;
+} */
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .menu a {
@@ -54,4 +77,5 @@ header {
 
 .logo {
   max-width: 12vw;
+  justify-content: center;
 }
