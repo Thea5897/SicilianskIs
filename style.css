@@ -19,6 +19,8 @@ video {
 h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 3vw;
+  text-shadow: 2px 2px 4px black;
+  letter-spacing: 3px;
 }
 
 h2 {
