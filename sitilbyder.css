@@ -17,7 +17,7 @@
 #second_section .col_1 {
   border: 0.1vw solid black;
   background-color: white;
-  width: 25em;
+  max-width: 25em;
   padding: 1em;
   margin: 5em;
   margin-top: -3.5em;
@@ -53,7 +53,7 @@
 #third_section .col_2 {
   border: 0.1vw solid black;
   background-color: white;
-  width: 25em;
+  max-width: 25em;
   padding: 1em;
 }
 
