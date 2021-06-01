@@ -14,57 +14,54 @@ html body {
 
 /* placering af splashbillede */
 #first_section .col {
-  margin-left: 17.5vw;
   grid-area: 1 / 1;
 }
 
 /* placering af h1, h2, p */
 #first_section h1 {
   z-index: 1;
-  padding-top: 2vw;
-  margin-left: 26vw;
+  padding-top: 4vw;
+  margin-left: 5vw;
   grid-area: 1 / 1;
-}
-
-#first_section h2 {
-  z-index: 1;
-  padding-top: 5.5vw;
-  margin-left: 26.1vw;
-  grid-area: 1 / 1;
-}
-
-h1 {
   font-size: 3vw;
   color: white;
 }
 
-h2 {
+#first_section h2 {
+  z-index: 1;
+  padding-top: 7.5vw;
+  margin-left: 5.1vw;
+  grid-area: 1 / 1;
   font-size: 2vw;
   color: white;
 }
 
 .billede1 {
   width: 30vw;
-  height: 30.3vw;
-  grid-row-start: span 2;
+  height: 35.4vw;
+  grid-column: 2;
+  margin-top: 5em;
+  border: solid black;
 }
 
 #second_section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50px 1fr 1fr 50px;
 
-  margin-left: 17.5vw;
-  /* align-content: center; */
+  place-content: end space-between;
 }
 
 #second_section .col {
   border: solid black;
   background-color: white;
   margin-top: -3.5em;
+  /* margin-right: 3em; */
+  grid-column: 3;
 }
 
 #second_section p {
   padding: 2em;
   line-height: 1.5em;
-  word-break: break-word;
+  /* word-break: break-word; */
+  hyphens: auto;
 }
