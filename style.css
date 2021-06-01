@@ -19,6 +19,8 @@ video {
 h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 3vw;
+  text-shadow: 2px 2px 4px black;
+  letter-spacing: 3px;
 }
 
 h2 {
@@ -96,4 +98,16 @@ ul {
   justify-content: center;
   gap: 0.8em;
   padding-top: 1vw;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+#kontakt {
+  grid-row: 9;
+  grid-column: 1/11;
+  margin-top: 100px;
+  text-align: center;
 }
