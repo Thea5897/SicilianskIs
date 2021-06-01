@@ -106,5 +106,8 @@ a {
 #first_section {
   width: 100%;
   height: 100vh;
-  background-image: url(http://karolinejoensson.dk/kea/05_content/stemningsvideo/MVI_8012.mp4);
+  display: grid;
+}
+
+@media (min-width: 780px) {
 }
