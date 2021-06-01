@@ -98,11 +98,13 @@ ul {
   padding-top: 1vw;
 }
 
-<<<<<<< HEAD
-#first_section {
-=======
 a {
   text-decoration: none;
   color: orange;
->>>>>>> f36e8f172fa2f4823ce519a6555962634a3eedce
+}
+
+#first_section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(http://karolinejoensson.dk/kea/05_content/stemningsvideo/MVI_8012.mp4);
 }
