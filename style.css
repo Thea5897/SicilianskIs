@@ -98,5 +98,11 @@ ul {
   padding-top: 1vw;
 }
 
+<<<<<<< HEAD
 #first_section {
+=======
+a {
+  text-decoration: none;
+  color: orange;
+>>>>>>> f36e8f172fa2f4823ce519a6555962634a3eedce
 }
