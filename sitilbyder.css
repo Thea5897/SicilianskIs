@@ -22,3 +22,24 @@
   margin: 5em;
   margin-top: -3.5em;
 }
+
+/* placering af billeder i second_section  */
+#second_section .col_2 {
+  margin-top: 2.5vw;
+  margin-right: 6vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#second_section .img_1 {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+#second_section .img_2 {
+  grid-area: 1 / 3 / 3 / 5;
+}
+
+#second_section .img_3 {
+  grid-area: 2 / 2 / 4 / 4;
+}
