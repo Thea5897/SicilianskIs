@@ -3,42 +3,53 @@ h2 {
   font-size: 1vw;
 }
 
+#first_section h2,
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
 #first_section {
   padding: 2vw;
-  grid-column: 4/6;
-  grid-row: 1;
+  grid-column: 1;
+  grid-row: 1/2;
   z-index: 1;
 }
 
 #third_section {
-  grid-column: 2;
+  grid-column: 3;
 }
 
 #fourth_section {
-  grid-column: 1;
+  grid-column: 1/2;
   grid-row: 3/4;
 }
 
 #aabningstider {
-  border: thick solid #000;
+  border: 0.1vw solid black;
   padding: 1vw;
 }
 
 #priser {
-  border: solid #000;
+  border: 0.1vw solid black;
   padding: 1.5vw;
 }
 
 main {
   display: grid;
-  grid-template-rows: repeat (8, 1fr) (max-width: 400px);
-  grid grid-template-rows: repeat (8, 1fr)(max-width: 400px);
+  grid-template-rows: repeat (8, 1fr);
+  grid-template-rows: repeat (8, 1fr);
+}
+
+#third_section,
+#fourth_section {
+  background-color: white;
 }
 
 #splash_vesterbro {
-grid-column: 1/6;
-grid-row: 1/1;
-z-index: -0.5;
+  grid-column: 1/6;
+  grid-row: 1/1;
+  height: 209.9px;
 }
 /*
 #fifth_section {
