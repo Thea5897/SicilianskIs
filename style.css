@@ -97,3 +97,8 @@ ul {
   gap: 0.8em;
   padding-top: 1vw;
 }
+
+a {
+  text-decoration: none;
+  color: orange;
+}
