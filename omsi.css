@@ -37,18 +37,18 @@ html body {
 }
 
 .billede1 {
-  width: 30vw;
-  height: 35.4vw;
+  max-width: 80%;
+
   grid-column: 2;
   margin-top: 5em;
   border: solid black;
+  align-self: start;
 }
 
 #second_section {
   display: grid;
-  grid-template-columns: 50px 1fr 1fr 50px;
-
-  place-content: end space-between;
+  grid-template-columns: 0px 1fr 1fr 0px;
+  gap: 50px;
 }
 
 #second_section .col {
