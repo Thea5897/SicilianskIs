@@ -66,17 +66,21 @@
   margin: 4vw;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
 }
 
 #third_section .img_1 {
-  grid-column: 1/7;
+  margin-top: -0.5vw;
+  grid-column: 2/10;
+  grid-row: 3/5;
 }
 
 #third_section .img_2 {
   grid-column: 7/13;
+  grid-row: 2/3;
 }
 
 #third_section .img_3 {
-  grid-column: 4/8;
+  grid-column: 1/7;
+  grid-row: 1/3;
 }
