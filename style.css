@@ -109,5 +109,10 @@ a {
   display: grid;
 }
 
+.element_2 {
+  border: 0.1vw solid black;
+  padding: 1.5vw;
+}
+
 @media (min-width: 780px) {
 }
