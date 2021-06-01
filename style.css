@@ -104,3 +104,10 @@ a {
   text-decoration: none;
   color: orange;
 }
+
+#kontakt {
+  grid-row: 9;
+  grid-column: 1/11;
+  margin-top: 100px;
+  text-align: center;
+}
