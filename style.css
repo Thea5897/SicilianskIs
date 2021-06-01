@@ -9,22 +9,27 @@ html body {
   margin: 0;
 }
 
-img {
+img,
+video {
   width: 100%;
+  display: block;
+  height: auto;
 }
 
 h1 {
   font-family: "Abril Fatface", cursive;
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   color: black;
+  line-height: 1.5em;
 }
 
 header {
@@ -77,14 +82,18 @@ ul {
   max-width: 12vw;
   justify-content: center;
   padding-left: 2.35vw;
+  padding-top: 2vw;
 }
 
 #fblogo,
 #instalogo {
-  max-height: 1.5em;
+  height: 1.5em;
 }
 
 #some_logos {
-  display: inline-flexbox;
+  display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 0.8em;
+  padding-top: 1vw;
 }
