@@ -91,8 +91,7 @@
 /* kontaktformular */
 label,
 input,
-textarea,
-button {
+textarea {
   display: block;
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -101,8 +100,13 @@ button {
 form {
   display: grid;
   gap: 2rem;
+  align-items: center;
 }
-
 .formular {
   background-color: #ffa500;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
