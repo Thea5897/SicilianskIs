@@ -39,6 +39,10 @@ p {
   font-family: "Montserrat", sans-serif;
   color: black;
   line-height: 1.5em;
+  font-size: 1.8vw;
+}
+li {
+  font-size: 1.8vw;
 }
 
 footer {
