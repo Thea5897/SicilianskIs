@@ -1,0 +1,13 @@
+#first_section {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+}
+
+.element_2 {
+  border: 0.1vw solid black;
+  padding: 1.5vw;
+}
+
+@media (min-width: 780px) {
+}
