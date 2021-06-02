@@ -75,4 +75,26 @@ html body {
 
 footer {
   font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* @media (min-width: 600px) {
+  #second_section {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+} */
+
+/* @media (min-width: 800px) {
+  #second_section {
+    grid-template-columns: 1fr;
+  }
+} */
+
+@media (max-width: 1000px) {
+  #second_section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
