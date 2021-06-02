@@ -42,7 +42,7 @@ html body {
 
   grid-column: 2;
   margin-top: 5em;
-  border: solid black;
+  border: 0.1vw solid black;
   align-self: start;
 }
 
@@ -53,7 +53,7 @@ html body {
 }
 
 #second_section .col {
-  border: solid black;
+  border: 0.1vw solid black;
   background-color: white;
   margin-top: -3.5em;
   /* margin-right: 3em; */
