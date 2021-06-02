@@ -8,6 +8,7 @@ video {
 h2 {
   color: black;
   font-size: 1vw;
+  text-align: center;
 }
 
 #first_section {
@@ -15,6 +16,7 @@ h2 {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 700px 350px;
 }
 
 .element_1 {
@@ -28,7 +30,13 @@ h2 {
   padding: 1.5vw;
   max-width: 25em;
   grid-column: 2/3;
-  color: white;
+  background-color: white;
+  text-align: center;
+}
+
+#second_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .small_col {
