@@ -71,3 +71,7 @@ html body {
   max-width: 86%;
   padding-top: 3em;
 }
+
+footer {
+  font-family: "Montserrat", sans-serif;
+}
