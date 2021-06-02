@@ -1,3 +1,15 @@
+img,
+video {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+h2 {
+  color: black;
+  font-size: 1vw;
+}
+
 #first_section {
   width: 100%;
   height: 100vh;
@@ -7,6 +19,13 @@
 .element_2 {
   border: 0.1vw solid black;
   padding: 1.5vw;
+  max-width: 25em;
+}
+
+.small_col {
+  border: 0.1vw solid black;
+  padding: 1.5vw;
+  max-width: 25em;
 }
 
 @media (min-width: 780px) {
