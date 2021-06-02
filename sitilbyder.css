@@ -22,6 +22,7 @@
   padding: 1em;
   margin: 5em;
   margin-top: -3.5em;
+  align-self: start;
 }
 
 /* placering af billeder i second_section  */
@@ -59,6 +60,7 @@
   background-color: white;
   max-width: 25em;
   padding: 1em;
+  align-self: start;
 }
 
 /* placering af billeder i second_section  */
@@ -84,4 +86,27 @@
 #third_section .img_3 {
   grid-column: 1/7;
   grid-row: 1/2;
+}
+
+/* kontaktformular */
+label,
+input,
+textarea {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+form {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+.formular {
+  background-color: #ffa500;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
