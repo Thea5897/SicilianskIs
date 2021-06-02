@@ -105,9 +105,24 @@ a {
   color: orange;
 }
 
+<<<<<<< HEAD
+#first_section {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+}
+
+.element_2 {
+  border: 0.1vw solid black;
+  padding: 1.5vw;
+}
+
+@media (min-width: 780px) {
+=======
 #kontakt {
   grid-row: 9;
   grid-column: 1/11;
   margin-top: 100px;
   text-align: center;
+>>>>>>> 01111b38ad154ac55c6b1ede80bcf02e75e9bd64
 }
