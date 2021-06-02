@@ -120,6 +120,7 @@ button {
 #third_section li {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
+  margin: 1em;
 }
 
 /* placering af billeder i second_section  */
@@ -127,22 +128,28 @@ button {
   margin: 6vw;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 #third_section .img_1 {
-  margin-top: 6vw;
-  grid-column: 7/13;
-  grid-row: 1/2;
-}
-
-#third_section .img_2 {
-  margin-top: -2.5vw;
-  grid-column: 2/12;
+  margin-top: -5.5vw;
+  grid-column: 5/13;
   grid-row: 2/3;
 }
 
-#third_section .img_3 {
-  grid-column: 1/7;
+#third_section .img_2 {
+  grid-column: 2/12;
   grid-row: 1/2;
+}
+
+#third_section .img_3 {
+  margin-top: -2vw;
+  grid-column: 1/7;
+  grid-row: 2/3;
+}
+
+#third_section .img_4 {
+  margin-top: -9vw;
+  grid-column: 6/12;
+  grid-row: 3/4;
 }
