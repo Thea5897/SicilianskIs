@@ -20,7 +20,15 @@ h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 3vw;
   text-shadow: 2px 2px 4px black;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
+ margin-left: 5vw;
+ line-height: 1em;
+}
+
+#first_section h2{
+  margin-left: 5vw;
+  font-size:  1.5vw;
+
 }
 
 h2 {
@@ -34,11 +42,12 @@ p {
   line-height: 1.5em;
 }
 
-/* footer{
+footer{
   font-family: "Montserrat", sans-serif;
   text-align: center;
-} */
-}
+  margin-bottom: 1em;
+  margin-top: 1em;
+} 
 
 header {
   background-color: #ffa500;
@@ -46,7 +55,6 @@ header {
   margin: 0;
   padding: 0;
   width: 17.5vw;
-  background-color: #ffa500;
   position: fixed;
   height: 100%;
   overflow: auto;

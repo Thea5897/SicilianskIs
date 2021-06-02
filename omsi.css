@@ -21,7 +21,7 @@ html body {
 #first_section h1 {
   z-index: 1;
   padding-top: 4vw;
-  margin-left: 5vw;
+  /* margin-left: 5vw; */
   grid-area: 1 / 1;
   font-size: 3vw;
   color: white;
@@ -30,7 +30,7 @@ html body {
 #first_section h2 {
   z-index: 1;
   padding-top: 7.5vw;
-  margin-left: 5.1vw;
+  /* margin-left: 5.1vw; */
   grid-area: 1 / 1;
   font-size: 2vw;
   color: white;
