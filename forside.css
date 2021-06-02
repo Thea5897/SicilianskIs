@@ -25,6 +25,7 @@ h2 {
 .small_col {
   border: 0.1vw solid black;
   padding: 1.5vw;
+  max-width: 25em;
 }
 
 @media (min-width: 780px) {
