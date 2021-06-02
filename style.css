@@ -34,6 +34,12 @@ p {
   line-height: 1.5em;
 }
 
+/* footer{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+} */
+}
+
 header {
   background-color: #ffa500;
   grid-column: 1/1;
