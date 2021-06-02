@@ -94,19 +94,22 @@ input,
 textarea {
   display: block;
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: black;
 }
 
 form {
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: center;
 }
 .formular {
+  max-width: 25em;
   background-color: #ffa500;
 }
 
 button {
   font-family: "Montserrat", sans-serif;
+  font-size: 1vw;
   color: black;
+  max-width: 16em;
 }
