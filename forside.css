@@ -80,11 +80,6 @@ video {
   grid-column: 2/5;
 }
 
-#kontakt {
-  margin-top: 200px;
-  text-align: center;
-}
-
 @media (max-width: 1200px) {
   #first_section1 h2 {
     font-size: 35px;
