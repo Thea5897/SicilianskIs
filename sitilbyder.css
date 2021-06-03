@@ -50,6 +50,7 @@
 
 /* kontaktformular */
 #second_undersection {
+  margin: 5em;
   margin-top: -6vw;
   background-color: #ffa500;
   padding: 1vw;
@@ -87,12 +88,12 @@ form {
 }
 
 .felt_besked {
-  grid-column: 4/7;
+  grid-column: 5/8;
   grid-row: 2/5;
 }
 button {
   grid-column: 9/11;
-  grid-row: 3/4;
+  grid-row: 3/5;
   font-family: "Montserrat", sans-serif;
   font-size: 1vw;
   color: white;
@@ -299,12 +300,10 @@ button {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   /* kontaktformular */
   #second_undersection {
-    margin-top: -6vw;
     background-color: #ffa500;
-    padding: 1vw;
   }
 
   label,
@@ -359,16 +358,13 @@ button {
 }
 
 @media (max-width: 650px) {
-  /* placering af second_section .col_1 og .col_2 via grid */
-  #second_section {
-    margin-top: 5em;
-  }
-
   /* tilpasning af p i second_section */
   #second_section .col_1 {
     border: 0.1vw solid black;
     background-color: white;
     align-self: start;
+    margin: 1em;
+    max-width: 30em;
   }
 
   /* placering af billeder i second_section  */
@@ -377,22 +373,22 @@ button {
     flex-direction: column;
   }
 
-  /* placering af third_section .col_1 og .col_2 via grid */
-  #third_section {
-    margin-top: 5vw;
-  }
-
   /* tilpasning af p i third_section */
   #third_section .col_2 {
     border: 0.1vw solid black;
     background-color: white;
     align-self: start;
-    margin-top: 1em;
+    margin: 1em;
+    max-width: 30em;
   }
 
   /* placering af billeder i third_section  */
   #third_section .col_1 {
     display: flex;
     flex-direction: column;
+  }
+
+  #second_undersection {
+    margin-top: 2em;
   }
 }
