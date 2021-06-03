@@ -127,3 +127,15 @@ a {
   text-align: right;
   font-size: 0.8em;
 }
+
+@media (max-width: 1000px) {
+  html body {
+    display: block;
+  }
+
+  header {
+    position: sticky;
+    background-color: #ffa500;
+    width: auto;
+  }
+}
