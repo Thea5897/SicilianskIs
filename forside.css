@@ -71,19 +71,21 @@ video {
   grid-column: 3/5;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px 430px 500px;
+  grid-template-rows: 1fr 1fr;
 }
 
 .img_1 {
   grid-column: 1/4;
-  grid-row: 2/3;
+  grid-row: 1/2;
 }
 
 .img_2 {
+  margin-top: -30px;
   grid-column: 4/7;
 }
 
 .img_3 {
+  margin-top: -50px;
   grid-column: 2/5;
 }
 
