@@ -32,7 +32,6 @@ h2 {
 
 #first_section h2 {
   margin-left: 5vw;
-  font-size: 1.5vw;
 }
 
 p {
@@ -119,5 +118,6 @@ a {
 }
 
 #kontakt {
-  text-align: center;
+  text-align: right;
+  font-size: 0.8em;
 }
