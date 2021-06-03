@@ -105,11 +105,12 @@ video {
     margin-top: -200px;
     display: grid;
     grid-template-rows: 400px 400px 400px;
-
   }
 
-}
-  .
+  .small_col {
+    grid-column: 2/5;
+    grid-row: span 3/4;
+  }
 }
 
 @media (max-width: 650px) {
