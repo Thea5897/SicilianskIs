@@ -79,16 +79,6 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 1000px) {
-  html body {
-    display: block;
-  }
-
-  header {
-    position: sticky;
-  }
-}
-
 @media (max-width: 1150px) {
   #second_section {
     display: block;
