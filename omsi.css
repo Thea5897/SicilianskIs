@@ -79,10 +79,15 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   #second_section {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
     gap: 20px;
+    max-width: 86%;
+    margin: auto;
+  }
+
+  #second_section .col {
+    margin-top: 3em;
   }
 }

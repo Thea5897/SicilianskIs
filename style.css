@@ -30,6 +30,10 @@ h2 {
   font-size: 2vw;
 }
 
+#first_section h2 {
+  margin-left: 5vw;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   color: black;
@@ -114,5 +118,6 @@ a {
 }
 
 #kontakt {
-  text-align: center;
+  text-align: right;
+  font-size: 0.8em;
 }
