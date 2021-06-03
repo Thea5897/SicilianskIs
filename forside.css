@@ -127,8 +127,10 @@ video {
   }
   .img_2 {
     grid-column: none;
+    margin-top: 0px;
   }
   .img_3 {
+    margin-top: 0px;
     grid-column: none;
   }
   #kontakt {
