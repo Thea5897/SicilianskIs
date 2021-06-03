@@ -117,7 +117,7 @@ a {
   font-size: 0.8em;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   html body {
     display: block;
   }
