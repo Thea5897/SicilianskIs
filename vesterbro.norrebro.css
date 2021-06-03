@@ -102,11 +102,7 @@ main {
 }
 
 #kontakt {
-  grid-row: 9;
-  grid-column: 1/11;
-
   text-align: center;
-  align-self: flex-end;
   background-color: white;
 }
 
@@ -136,10 +132,6 @@ main {
     display: block;
 
     gap: 10px;
-  }
-
-  #kontakt {
-    font-size: 0.5em;
   }
 
   #aabningstider {

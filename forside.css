@@ -157,4 +157,11 @@ video {
     align-self: center;
     grid-column: 2/5;
   }
+
+  .img_1,
+  .img_2,
+  .img3,
+  .col {
+    margin-top: 15px;
+  }
 }
