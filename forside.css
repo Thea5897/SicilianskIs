@@ -5,6 +5,10 @@ video {
   height: auto;
 }
 
+#videoBG {
+  position: static;
+}
+
 #first_section h2 {
   color: black;
   font-family: "Montserrat", sans-serif;
