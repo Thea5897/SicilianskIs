@@ -127,6 +127,9 @@ a {
 #menuknap {
   display: inline-block;
   color: white;
+  place-content: end;
+  display: flex;
+  /* margin-top: -7em; */
 }
 
 #menu {
