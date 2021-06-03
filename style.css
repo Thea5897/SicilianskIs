@@ -117,6 +117,7 @@ a {
   font-size: 0.8em;
 }
 
+<<<<<<< HEAD
 .hidden {
   /*    display: none;*/
   /*    transform: scale(0);*/
@@ -135,6 +136,9 @@ a {
 }
 
 @media (max-width: 900px) {
+=======
+@media (max-width: 1000px) {
+>>>>>>> 69adae6d7ee24471e60d9a6cffdc723a68ce5ba6
   html body {
     display: block;
   }
