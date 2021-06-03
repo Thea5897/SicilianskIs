@@ -92,8 +92,7 @@ footer {
   /* placering af second_section .col_1 og .col_2 via grid */
 
   #third_section {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 15px;
     display: block;
     background-color: white;
     z-index: 1;
