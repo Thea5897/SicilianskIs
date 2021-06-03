@@ -74,7 +74,7 @@ ul {
   padding: 0;
 }
 
-.menu a {
+#menu a {
   font-family: "Montserrat", sans-serif;
   display: block;
   color: white;
@@ -83,7 +83,7 @@ ul {
   text-align: center;
 }
 
-.menu a:hover {
+#menu a:hover {
   opacity: 60%;
 }
 
@@ -117,6 +117,23 @@ a {
   font-size: 0.8em;
 }
 
+.hidden {
+  /*    display: none;*/
+  /*    transform: scale(0);*/
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
 @media (max-width: 900px) {
   html body {
     display: block;
@@ -126,5 +143,17 @@ a {
     position: sticky;
     background-color: #ffa500;
     width: auto;
+  }
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline-block;
   }
 }
