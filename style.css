@@ -140,7 +140,7 @@ a {
   transform-origin: top left;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   html body {
     display: block;
   }
@@ -152,7 +152,7 @@ a {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   #menuknap {
     display: none;
   }
