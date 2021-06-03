@@ -7,13 +7,12 @@ h2 {
 h1 {
   color: white;
   text-shadow: 2px 2px 4px black;
+  z-index: 2;
 }
 
 #first_section {
-  padding: 2vw;
-  grid-column: 1/5;
+  grid-column: 1/11;
   grid-row: 1;
-  z-index: 1;
 }
 
 #third_section {
@@ -37,6 +36,10 @@ h1 {
   padding: 1.5vw;
 }
 
+hr {
+  color: rgba(255, 166, 0, 0.212);
+}
+
 main {
   display: grid;
   grid-template-rows: 275px repeat(8, 150px);
@@ -47,12 +50,12 @@ main {
 #fourth_section {
   background-color: white;
 }
-
+/*
 #splash {
   grid-column: 1/13;
   grid-row: 1/1;
   height: 209.9px;
-}
+} */
 /*
 #fifth_section {
   grid-column: 5/7;
@@ -84,9 +87,6 @@ main {
   align-self: flex-end;
   background-color: white;
 }
-footer {
-  background-color: white;
-}
 
 @media (max-width: 1000px) {
   /* placering af second_section .col_1 og .col_2 via grid */
@@ -96,10 +96,6 @@ footer {
     display: block;
     background-color: white;
     z-index: 1;
-  }
-
-  #splash > img {
-    display: inline;
   }
 
   #fourth_section {
@@ -122,14 +118,6 @@ footer {
 
   #kontakt {
     font-size: 0.5em;
-  }
-
-  #first_section {
-    background-image: url(billeder/vesterbro.splash.webp);
-  }
-
-  .splash {
-    display: none;
   }
 }
 

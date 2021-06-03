@@ -30,6 +30,11 @@ h2 {
   font-size: 2vw;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+}
+
 #first_section h2 {
   margin-left: 5vw;
 }
