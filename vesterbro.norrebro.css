@@ -104,6 +104,10 @@ main {
 #kontakt {
   text-align: center;
   background-color: white;
+  grid-row: 9;
+  grid-column: 1/11;
+
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
