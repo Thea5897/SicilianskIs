@@ -122,6 +122,7 @@ a {
   /*    transform: scale(0);*/
   transform: translateX(-100%);
   opacity: 0;
+  display: none;
 }
 
 #menuknap {
@@ -158,6 +159,7 @@ a {
   #menu.hidden {
     transform: translateX(0);
     opacity: 1;
+    display: block;
   }
 
   #menu li {
