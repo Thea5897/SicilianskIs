@@ -30,6 +30,14 @@ h2 {
   font-size: 2vw;
 }
 
+<<<<<<< HEAD
+=======
+#first_section h2 {
+  margin-left: 5vw;
+  font-size: 1.5em;
+}
+
+>>>>>>> c9ad6eae6a4367e5e4f3972c08cd1a4c8770a6c5
 p {
   font-family: "Montserrat", sans-serif;
   color: black;
