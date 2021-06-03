@@ -161,6 +161,6 @@ a {
   }
 
   #menu li {
-    display: inline-block;
+    display: block;
   }
 }
