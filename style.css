@@ -126,6 +126,7 @@ a {
 
 #menuknap {
   display: inline-block;
+  color: white;
 }
 
 #menu {
@@ -144,6 +145,9 @@ a {
     background-color: #ffa500;
     width: auto;
   }
+}
+
+@media (min-width: 1000px) {
   #menuknap {
     display: none;
   }
